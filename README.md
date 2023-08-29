@@ -3,7 +3,7 @@
 This example demonstrates how to deploy ec2-scheduler through which instances can be stopped/started by schedule.
 
 # Usage: 
-'''
+
 module "ec2_scheduler" {
   source = "git::https://github.com/tothenew/terraform-aws-ec2-scheduler.git"
   region = "us-east-1"
@@ -12,4 +12,3 @@ module "ec2_scheduler" {
   tag_key = "ENV"
   tag_value = "non-prod"
 }
-'''
